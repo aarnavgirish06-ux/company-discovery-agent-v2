@@ -163,10 +163,7 @@ to change to deploy it:
 - Streamlit's default layout already reflows responsively to narrow/mobile
   screens without extra work.
 
-Not done yet, and worth doing when you pick a platform: if you deploy
-`web_app.py` too, most non-Streamlit platforms expect the server to bind to
-a `$PORT` environment variable rather than a hardcoded port — a small change
-to that file's `app.run(...)` call when the time comes.
+
 
 ## Project structure
 
